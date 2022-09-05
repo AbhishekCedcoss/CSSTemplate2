@@ -6,7 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSSTemplate2</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Create three equal columns that floats next to each other */
+      .column {
+        float: left;
+        margin-top: 6%;
+        margin-left: 10%;
+        width: 20.33%;
+        padding: 12px;
+        height: 250px;
+        border-radius: 30px;
+        display: block;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
   </head>
+
   <body>
     <div style="padding-top: 2%" class="head">
       <a style="padding: 1.5%" href="#">Products </a>
@@ -22,7 +47,68 @@
         voluptate. Praesentium asperiores quasi perferendis ex incidunt unde
         dolorem.
       </p>
-      <button style="padding:.6%; margin-left:10px;">learn More</button>
+      <button style="padding: 0.6%; margin-left: 10px">learn More</button>
     </div>
+    <div class="row">
+      <div class="column" style="background-color: #aaa">
+        <div>
+          <h1 style="margin-top: 110%; margin-left: 3%">Heading 1</h1>
+          <p>
+            this is Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+            amet,
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+      <div class="column" style="background-color: #bbb">
+        <div>
+          <h1 style="margin-top: 110%; margin-left: 3%">Heading 1</h1>
+          <p>
+            This is Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+      <div class="column" style="background-color: #ccc">
+        <div>
+          <h1 style="margin-top: 110%; margin-left: 3%">Heading 1</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top: 220px" class="ft">
+      <h2
+        style="
+          padding-left: 1%;
+          color: rgb(4, 1, 7);
+          margin-left: 0%;
+          display: inline;
+          padding-left: 320px;
+        "
+      >
+        Subscribe Us
+      </h2>
+      <input
+        style="padding: 0.5%; padding-right: 3%; padding-left: 3%"
+        type=" text"
+        name="Text box"
+      />
+      <input
+        style="
+          padding: 0.5%;
+          padding-right: 3%;
+          padding-left: 3%;
+          margin-top: -120px;
+          background-color: rgba(75, 88, 206, 0.726);
+        "
+        type="button"
+        value="Submit"
+      />
+    </div>
+    <div  class="fl"><p>Copyright@2022</p></div>
+    <p style="text-align:end;margin-top:-3.7%;padding-right: 27px;">Cedcoss Technologies</p>
   </body>
 </html>

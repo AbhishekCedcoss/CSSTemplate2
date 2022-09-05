@@ -12,9 +12,15 @@
     background-color: rgba(119, 134, 132, 0.212);
     padding-bottom:2.5%;
 }
-.pb{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 3%;
-    background-color:rgba(119, 134, 132, 0.212); 
+.ft{
+    margin-left:2%;
+    background-color: rgba(119, 134, 132, 0.212);
+    padding-bottom:2.5%;
+    padding: 1%;
+    align-content: center;
+}
+.fl{
+    margin-left: 3%;
+    background-color: rgba(240, 248, 255, 0);
+    padding: 1%;
 }
