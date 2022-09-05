@@ -1,0 +1,20 @@
+.head{
+    text-align: right;
+    padding-right: 5%;
+
+}
+.sl{
+    padding-left:3%;
+}
+.fb{
+    margin-left:3%;
+    margin-right: 3%;
+    background-color: rgba(119, 134, 132, 0.212);
+    padding-bottom:2.5%;
+}
+.pb{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    background-color:rgba(119, 134, 132, 0.212); 
+}
