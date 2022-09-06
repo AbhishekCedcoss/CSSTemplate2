@@ -6,32 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSSTemplate2</title>
     <link rel="stylesheet" href="style.css" />
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-
-      /* Create three equal columns that floats next to each other */
-      .column {
-        float: left;
-        margin-top: 6%;
-        margin-left: 10%;
-        width: 20.33%;
-        padding: 12px;
-        height: 250px;
-        border-radius: 30px;
-        display: block;
-      }
-
-      /* Clear floats after the columns */
-      .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-    </style>
   </head>
-
   <body>
     <div style="padding-top: 2%" class="head">
       <a style="padding: 1.5%" href="#">Products </a>
@@ -40,7 +15,7 @@
     </div>
     <div class="sl"><h2>Site Logo</h2></div>
     <div class="fb">
-      <h2 style="padding: 1%">We Power eCommerce</h2>
+      <h2  style="padding: 1%">We Power eCommerce</h2>
       <p style="padding-right: 700px; margin-left: 15px">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, at?Lorem
         ipsum dolor sit amet consectetur adipisicing elit. Nam at iusto
@@ -49,10 +24,41 @@
       </p>
       <button style="padding: 0.6%; margin-left: 10px">learn More</button>
     </div>
+    <div >
     <div class="row">
-      <div class="column" style="background-color: #aaa">
-        <div>
+      <div  class="column" style="background-color: #aaa;">
+        <!-- <div >
+          <h1  style="margin-top: 110%; margin-left: 3%;">Heading 1</h1>
+          <p>
+            this is Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+            amet,
+          </p>
+          <a href="#">Learn More</a>
+        </div> -->
+      </div>
+      <div class="column" style="background-color: #bbb">
+        <!-- <div>
           <h1 style="margin-top: 110%; margin-left: 3%">Heading 1</h1>
+          <p>
+            This is Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <a href="#">Learn More</a>
+        </div> -->
+      </div>
+      <div class="column" style="background-color: #ccc">
+        <!-- <div>
+          <h1 style="margin-top: 110%; margin-left: 3%">Heading 1</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+          </p>
+          <a href="#">Learn More</a>
+        </div> -->
+      </div>
+    </div>
+    <div class="row">
+      <div  class="column" style="background-color: rgba(255, 250, 250, 0);">
+        <div >
+          <h1  style="margin-top: 0%; margin-left: 3%;">Heading 1</h1>
           <p>
             this is Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
             amet,
@@ -60,26 +66,32 @@
           <a href="#">Learn More</a>
         </div>
       </div>
-      <div class="column" style="background-color: #bbb">
-        <div>
-          <h1 style="margin-top: 110%; margin-left: 3%">Heading 1</h1>
+      <div class="column" style="background-color: rgba(187, 187, 187, 0)">
+        <div >
+          <h1  style="margin-top: 0%; margin-left: 3%;">Heading 2</h1>
           <p>
-            This is Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            this is Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+            amet,
           </p>
           <a href="#">Learn More</a>
         </div>
       </div>
-      <div class="column" style="background-color: #ccc">
-        <div>
-          <h1 style="margin-top: 110%; margin-left: 3%">Heading 1</h1>
+      <div class="column" style="background-color: rgba(204, 204, 204, 0)">
+        <div >
+          <h1  style="margin-top: 0%; margin-left: 3%;">Heading 3</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+            this is Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+            amet,
           </p>
           <a href="#">Learn More</a>
         </div>
       </div>
     </div>
-    <div style="margin-top: 220px" class="ft">
+
+
+
+  </div>
+    <div style="margin-top: 10px" class="ft">
       <h2
         style="
           padding-left: 1%;
@@ -98,11 +110,12 @@
       />
       <input
         style="
-          padding: 0.5%;
+          padding: 0.6%;
           padding-right: 3%;
           padding-left: 3%;
           margin-top: -120px;
           background-color: rgba(75, 88, 206, 0.726);
+          border:rgba(75, 88, 206, 0.726);
         "
         type="button"
         value="Submit"
